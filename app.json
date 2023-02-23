@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Meme Media",
+    "slug": "MemeMedia",
+    "description": "Daily Memes App.",
+    "version": "2",
+    "orientation": "portrait",
+    "icon": "./assets/Img/logo.png",
+    "userInterfaceStyle": "light",
+    "scheme": "com.Meme.Media",
+    "splash": {
+      "image": "./assets/Img/splashScreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    " assetBundlePatterns": ["**/*"],
+    " ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.Meme.Media",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        " foregroundImage": "./assets/Img/icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/Img/icon.png"
+    }
+  }
+}
